@@ -1,8 +1,10 @@
 package chapter03
 
-import com.sun.javafx.scene.control.behavior.DatePickerBehavior
+
+import scala.language.postfixOps
 
 object Test01_TestOperator {
+
   def main(args: Array[String]): Unit = {
     // 1. 算术运算符
     val result1: Int = 10 / 3
@@ -73,5 +75,6 @@ object Test01_TestOperator {
     println(1.34 * 25)
 
     println(7.5.toInt.toString)
+    println(7.5 toInt)
   }
 }
